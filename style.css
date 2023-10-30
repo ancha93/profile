@@ -1,0 +1,58 @@
+body {
+  background-color:ff99c8;
+  font-family: 'MedievalSharp', cursive;
+  color : black;
+  font-size : 17;
+  text-align: center;
+}
+
+.profil{
+  margin: 150px auto;
+  display: flex;
+  gap: 1rem;
+}
+
+h1 {
+  font-family: 'MedievalSharp', cursive;
+  color: red
+}
+
+h2 {
+  font-family: 'MedievalSharp', cursive;
+  color: red
+}
+a:hover {
+  text-decoration: underline;
+  color : green
+}
+
+.card{
+  border: 10px solid red;
+  border-radius: 5px;
+  flex: 1;
+  padding: 0 25px;
+  margin: 0 auto;
+}
+
+.card:hover{
+  flex: 5;
+}
+
+.element-parent {
+  background-color: green;
+}
+
+
+.element-second {
+  background-color: yellow;
+}
+#pix {
+  width : 500px; height : 500px;
+  border : 10px solid purple;
+    -moz-border-radius : 75px;
+  -webkit-border-radius : 75px;
+  border-radius : 75px;
+}
+.media {
+  background-color: blue;
+}
